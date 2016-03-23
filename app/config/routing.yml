@@ -1,0 +1,7 @@
+rag_user:
+    resource: "@RAGUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
